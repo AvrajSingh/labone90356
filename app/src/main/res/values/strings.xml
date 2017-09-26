@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppOne</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+
+    <string name="signUpTitle">S I G N  U P</string>
+    <string name="homeTitle">D E T A I L S</string>
+
+    <string name="txtFirstName_hint">First Name</string>
+    <string name="txtLastName_hint">Last Name</string>
+    <string name="txtPhone_hint">Phone Number</string>
+    <string name="txtEmail_hint">Email Address</string>
+    <string name="txtPassword_hint">Password</string>
+    <string name="btnSave">S A V E</string>
+
+</resources>

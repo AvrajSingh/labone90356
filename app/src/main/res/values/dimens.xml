@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="main_padding">15dp</dimen>
+
+    <!--Dimens for Lab One Logo-->
+    <dimen name="labOne_height">50dp</dimen>
+    <dimen name="labOne_margin">10dp</dimen>
+
+    <!--Dimens for Activity Title-->
+    <dimen name="aTitle_fontSize">20dp</dimen>
+    <dimen name="aTitle_fontSpacing">5dp</dimen>
+    <dimen name="aTitle_margin">10dp</dimen>
+
+    <!--Dimens for Activity Text-->
+    <dimen name="aText_fontSize">15dp</dimen>
+    <dimen name="aText_padding">5dp</dimen>
+    <dimen name="aText_spacing">200dp</dimen>
+
+</resources>

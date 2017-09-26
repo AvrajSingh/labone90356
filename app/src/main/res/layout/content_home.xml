@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="@dimen/main_padding"
+    android:background="@color/colorMainBG"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/labone"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/labOne_height"
+        android:src="@drawable/labone"
+        android:layout_margin="@dimen/labOne_margin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeTitle"
+        android:textSize="@dimen/aTitle_fontSize"
+        android:textColor="@color/colorText"
+        android:layout_margin="@dimen/aTitle_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/labone" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fNameTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtFirstName_hint"
+        android:textColor="@color/colorTextHint"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/fName"
+        android:layout_below="@+id/homeTitle"
+        android:padding="@dimen/aText_padding" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fName"
+        android:layout_width="@dimen/aText_spacing"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtFirstName_hint"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/homeTitle"
+        android:padding="@dimen/aText_padding"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lNameTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtLastName_hint"
+        android:textColor="@color/colorTextHint"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/lName"
+        android:layout_below="@id/fName"
+        android:padding="@dimen/aText_padding" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lName"
+        android:layout_width="@dimen/aText_spacing"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtLastName_hint"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fName"
+        android:padding="@dimen/aText_padding" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/phoneTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtPhone_hint"
+        android:textColor="@color/colorTextHint"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/phone"
+        android:layout_below="@id/lName"
+        android:padding="@dimen/aText_padding" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/phone"
+        android:layout_width="@dimen/aText_spacing"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtPhone_hint"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/lName"
+        android:padding="@dimen/aText_padding" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/emailTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtEmail_hint"
+        android:textColor="@color/colorTextHint"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/email"
+        android:layout_below="@id/phone"
+        android:padding="@dimen/aText_padding" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/email"
+        android:layout_width="@dimen/aText_spacing"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aText_fontSize"
+        android:text="@string/txtEmail_hint"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/phone"
+        android:padding="@dimen/aText_padding" />
+
+</RelativeLayout>
